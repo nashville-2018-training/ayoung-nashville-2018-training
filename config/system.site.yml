@@ -1,0 +1,14 @@
+uuid: 539ef60c-5e9c-4c39-962d-274f72c729bf
+name: ayoung-nashville-2018-training
+mail: andy.young@technivant.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
