@@ -1,0 +1,35 @@
+uuid: 90b8a693-e7b1-42d7-925a-73646554239e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.store.body
+    - field.field.node.store.field_address
+    - node.type.store
+  module:
+    - address
+    - text
+    - user
+id: node.store.default
+targetEntityType: node
+bundle: store
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_address:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
